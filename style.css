@@ -1,0 +1,88 @@
+@import "./utility.css";
+
+:root {
+  --black: #333;
+  --pastel-yellow: #fff897;
+  --shandy: #fae96f;
+  --golden-poppy: #f6c101;
+  --orange: #ec9d00;
+  --harvest-gold: #df8d03;
+  --alloy-orange: #c96e12;
+}
+
+body {
+  background-color: var(--shandy);
+  font-family: "Crimson Pro", serif;
+  color: var(--black);
+}
+
+nav {
+  text-align: right;
+}
+
+.menu-link {
+  color: var(--black);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  background-color: transparent;
+}
+
+.menu-link::after {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid var(--black);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-link:hover::after {
+  transform: scaleX(1);
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 2rem;
+    width: fit-content;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .card + .card {
+      margin-left: 2rem;
+  }
+
+  .card h2 {
+      margin-top: 0;
+  }
+
+  .card-contact {
+      margin-top: 2rem;
+      background-color: var(--alloy-orange);
+      color: white;
+  }
+
+  .contact-information {
+      display: flex;
+  }
+
+  .contact-information * + * {
+      margin-left: 1rem;
+  }
+
+  .footer-content {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+  }
