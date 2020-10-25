@@ -12,6 +12,9 @@
     <!-- CSS Library -->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
         integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css" />
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
     <!-- Own CSS -->
     <link rel="stylesheet" href="style.css">
@@ -37,14 +40,25 @@
 
     <main>
         <div class="container">
-            <h1>Bierzentrale</h1>
+            <div class="jumbotron pure-g">
+                <div class="pure-u-2-5 jumbotron__img">
+                    <img src="./assets/bierzentrale-logo-min.jpg" alt="Bierglas mit Logo">
+                </div>
+                <div class="pure-u-3-5 jumbotron__title">
+                    <h1 class="">Bierzentrale</h1>
+                    <p>Tschechische Biere in Flaschen, Dosen und Fässern.</p>
+                </div>
+            </div>
 
             <div class="information">
+
                 <article class="card">
                     <h2>Vertrieb</h2>
                     <p>Von Montag bis Samstag beliefern wir mit unseren BIERTAXIS Restaurants, Bars,
                         Lebensmittel-Läden, Betriebe, Vereine sowie Privatpersonen.</p>
                 </article>
+
+
                 <article class="card">
                     <h2>
                         Philosophie
@@ -54,6 +68,7 @@
                     <p>Wichtig: Wir machen keine "Knebelverträge" mit Restaurants und Bars. Unsere Zusammenarbeit
                         ist freiwillig und basiert auf gegenseitigem Respekt.</p>
                 </article>
+
             </div>
             <div class="card card-contact">
                 <h2>Kontakt</h2>
@@ -61,11 +76,11 @@
 
                 <div class="contact-information">
                     <img src="./assets/call-white-24dp.svg" alt="Telefon Icon">
-                    <p>079</p>
+                    <a href="tel:+41796526405">079 652 64 05</a>
                 </div>
                 <div class="contact-information">
                     <img src="./assets/mail-white-24dp.svg" alt="Telefon Icon">
-                    <p>wopelka@gmail.com</p>
+                    <a href="mailto:biertaxi@bierzentrale-czechpoints.ch">biertaxi@bierzentrale-czechpoints.ch</a>
                 </div>
 
             </div>
@@ -75,7 +90,7 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <p>2020</p>
+                <p>Copyright © 2020 | Bierzentrale</p>
                 <p>Made by Thierry</p>
             </div>
         </div>
