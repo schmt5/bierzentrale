@@ -1,6 +1,6 @@
 :root {
   --black: #1f1f1f;
-  --white: #f5f5f5;
+  --white: #eee;
   --opal: #90b5b6;
   --alloy-orange: #c96e12;
 
@@ -15,6 +15,15 @@
   --harvest-gold: #df8d03;
 
   --md-breakpoint: 768px;
+
+
+  --green-black: #1E2D2F;
+  --jet: #3D3B3C;
+  --solid-pink: #823038;
+}
+
+html {
+  background-image: linear-gradient(to bottom right, #F5C936, #FCBD03);
 }
 
 h1,

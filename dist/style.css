@@ -12,8 +12,9 @@ body {
 }
 
 .card-contact {
+  border: none;
   margin-top: 2rem;
-  background-color: var(--alloy-orange);
+  background-color: var(--jet);
   color: var(--white);
 }
 
@@ -24,7 +25,11 @@ body {
 .contact-information a {
   color: var(--white);
   text-decoration: none;
-  margin: 0.5rem 0 0.5rem 1rem;
+  margin: 0.5rem 1rem;
+}
+
+.contact-information span {
+  margin: 0.5rem 0;
 }
 
 .contact-information a::after {
@@ -40,7 +45,7 @@ body {
 }
 
 footer {
-  border-top: 1px solid var(--black);
+  border-top: 1px solid rgba(31, 31, 31, 0.3);
   margin-top: 3rem;
 }
 
@@ -48,4 +53,9 @@ footer {
   display: flex;
   justify-content: space-between;
   font-size: 0.8rem;
+}
+
+.creator {
+  color: black;
+  margin: 0.8rem 0;
 }
