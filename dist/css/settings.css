@@ -29,10 +29,11 @@ html {
 h1,
 h2,
 h3 {
+  font-family: "Crimson Pro", serif;
   font-weight: inherit;
   margin: 0;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
