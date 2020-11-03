@@ -6,9 +6,15 @@
 @import "./css/about.css";
 
 body {
-  font-family: "Crimson Pro", serif;
+  font-family: "Roboto", sans-serif;
   color: var(--black);
   margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Crimson Pro", serif;
 }
 
 .card-contact {
