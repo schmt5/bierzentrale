@@ -1,11 +1,8 @@
 .about {
-  display: flex;
-  flex-direction: column;
   margin: 3rem 0;
 }
 
-@media screen and (min-width: 768px) {
-  .about {
-    flex-direction: row;
-  }
+.about .card__content {
+  text-align: justify;
+  max-width: 720px;
 }

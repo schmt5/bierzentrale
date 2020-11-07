@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+.teaser {
+  text-align: left;
+  margin-top: 2rem;
+}
+
 .card-contact {
   border: none;
   margin-top: 2rem;
