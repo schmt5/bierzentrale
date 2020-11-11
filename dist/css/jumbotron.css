@@ -9,11 +9,11 @@
 .jumbotron__img img {
   display: block;
   height: 250px;
-  margin: 0 auto 0 1rem;
 }
 
 .jumbotron__title {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .jumbotron__title h1 {
@@ -29,6 +29,10 @@
 
   .jumbotron__img {
     flex: 1;
+  }
+
+  .jumbotron__img img {
+    margin: 0 auto 0 1rem;
   }
 
   .jumbotron__title {
