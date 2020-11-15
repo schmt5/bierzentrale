@@ -4,6 +4,7 @@
 @import "./css/header.css";
 @import "./css/jumbotron.css";
 @import "./css/about.css";
+@import "./css/img-gallery.css";
 
 body {
   font-family: "Roboto", sans-serif;

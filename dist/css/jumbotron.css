@@ -22,6 +22,22 @@
   margin-bottom: 0;
 }
 
+.cta-btn {
+  display: inline-block;
+  color: var(--white);
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--jet);
+  border: 1px solid var(--jet);
+  border-radius: 5px;
+}
+
+.cta-btn:hover {
+  background-color: transparent;
+  color: var(--black);
+}
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     flex-direction: row;

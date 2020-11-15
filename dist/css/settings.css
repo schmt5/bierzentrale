@@ -24,6 +24,7 @@
 
 html {
   background-image: linear-gradient(to bottom right, #F5C936, #FCBD03);
+  scroll-behavior: smooth;
 }
 
 h1,
