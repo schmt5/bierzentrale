@@ -94,10 +94,27 @@ footer {
   margin-top: 3rem;
 }
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
+.footer-content p {
+  text-align: center;
   font-size: 0.8rem;
+}
+
+
+.author {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.author p {
+  color: var(--black);
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.author a {
+  font-size: 0.8rem;
+  margin-left: 6px;
 }
 
 .creator {
