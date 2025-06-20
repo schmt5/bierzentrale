@@ -1,0 +1,73 @@
+@import "./css/settings.css";
+@import "./css/utility.css";
+
+@import "./css/header.css";
+@import "./css/jumbotron.css";
+@import "./css/about.css";
+@import "./css/img-gallery.css";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black);
+  margin: 0;
+}
+
+.teaser {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.card-contact {
+  border: none;
+  margin-top: 2rem;
+  background-color: var(--jet);
+  color: var(--white);
+}
+
+.contact-information {
+  display: flex;
+}
+
+.contact-information a {
+  color: var(--white);
+  text-decoration: none;
+  margin: 0.5rem 1rem;
+}
+
+.contact-information span {
+  margin: 0.5rem 0;
+}
+
+.contact-information a::after {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid var(--white);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.contact-information a:hover::after {
+  transform: scaleX(1);
+}
+
+.opening-hours {
+  margin-top: 0;
+  margin-left: 2.5rem;
+  font-size: 0.8rem;
+}
+
+footer {
+  border-top: 1px solid rgba(31, 31, 31, 0.3);
+  margin-top: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.creator {
+  color: black;
+  margin: 0.8rem 0;
+}
